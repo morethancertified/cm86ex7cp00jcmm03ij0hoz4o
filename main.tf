@@ -23,3 +23,4 @@ resource "github_branch" "infra-prod-staging" {
   repository = github_repository.infra-prod.name
   branch     = "staging"
 }
+
